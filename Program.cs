@@ -20,7 +20,9 @@ namespace mod4
             Console.WriteLine(kodeProduk.GetKodeProduk("Smartwatch"));
             Console.WriteLine(kodeProduk.GetKodeProduk("Kamera"));
             Console.WriteLine(kodeProduk.GetKodeProduk("Speaker"));
-            
+
+            FanLaptop.Run();
+
 
         }
     }
